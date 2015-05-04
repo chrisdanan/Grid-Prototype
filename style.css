@@ -1,0 +1,26 @@
+/*Stylesheet for Grid_Prototype*/
+
+body{
+	font-family: arial, verdana, sans-serif;
+	font-size: 100%;
+
+}
+
+td, th{
+	margin: 5px;
+	padding: 30px;
+}
+
+td{
+	border: 1px solid black;
+}
+
+td:hover{
+	background-color: cornflowerblue;
+	cursor: pointer;
+}
+
+#clickResult p{
+	margin-left: 33px;
+}
+

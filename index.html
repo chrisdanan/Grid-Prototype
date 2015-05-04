@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Grid Prototype</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="Chris Danan" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<h1>Hello Vane!</h1>
+
+		<table id="grid">
+			<tr>
+				<th></th>
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+			</tr>
+			<tr>
+				<th>A</th>
+				<td class="row1 col1" id="A1"></td>
+				<td class="row1 col2" id="A2"></td>
+				<td class="row1 col3" id="A3"></td>
+			</tr>
+			<tr>
+				<th>B</th>
+				<td class="row2 col1" id="B1"></td>
+				<td class="row2 col2" id="B2"></td>
+				<td class="row2 col3" id="B3"></td>
+			</tr>
+			<tr>
+				<th>C</th>
+				<td class="row3 col1" id="C1"></td>
+				<td class="row3 col2" id="C2"></td>
+				<td class="row3 col3" id="C3"></td>
+			</tr>
+		</table>
+
+		<div id="clickResult">
+			<p></p>
+		</div>
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
