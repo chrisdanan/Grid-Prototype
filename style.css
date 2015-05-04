@@ -24,3 +24,11 @@ td:hover{
 	margin-left: 33px;
 }
 
+.hit{
+	background-color: red;
+}
+
+.miss{
+	background-color: gray;
+}
+
